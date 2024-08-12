@@ -6,7 +6,7 @@ function checkAnswers(){
 
     // check the answer for Question 1
     // set a pointer to the q1
-    var q1 = frmQuiz.elements("radQ1");
+    var q1 = frmQuiz.elements["radQ1"];
     // check if the correct value was chosen
     if (q1.value == "b"){
         // add 1 to the score, since the correct answer was chosen
@@ -15,7 +15,7 @@ function checkAnswers(){
 
     // check the answer for Question 2
     // set a pointer to the q2
-    var q2 = frmQuiz.elements("radQ2");
+    var q2 = frmQuiz.elements["radQ2"];
     // check if the correct value was chosen
     if (q2.value == "a"){
         // add 1 to the score, since the correct answer was chosen
